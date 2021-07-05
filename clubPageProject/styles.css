@@ -1,0 +1,74 @@
+
+nav ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0%;
+    overflow: hidden;
+    display:table;
+    float: center;
+    position: relative;
+    width: 100%;
+    border: 1px solid teal;
+    background-color: teal;
+    color:black;
+    font-weight: 50;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;;
+}
+nav li {
+    display: table-cell;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 30px 30px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: black;
+}
+.title {
+    color:azure;
+    border: 2px solid grey;
+    box-sizing: inherit;
+    font-size 4rem;
+    font-weight: 100;
+    text-align: center;
+    background-image: url('manchesterSkyline.jpg');
+    font-family: 'Zen Loop', cursive;
+}
+p {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;;
+}
+.description {
+    font-family: 'Zen Loop', cursive;
+    text-align: left;
+    font-weight: 100;
+    font-size: 2rem;
+}
+.item {
+    padding: 5px;
+    align-content: space-between;
+  }
+  
+.item img {
+    height: 300px;
+    margin: auto;
+    float: right;
+    align-items: center;
+    padding: 2%;
+    
+  }
+  .flex-container-items{
+    padding-top: 5px;
+  }
+#footer {
+    text-align: left;
+    padding-left: 20px;
+}
+@media only screen and (max-width: 480px) {
+    nav ul {
+      width: 270px;
+    }
